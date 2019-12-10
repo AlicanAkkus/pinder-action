@@ -1,6 +1,7 @@
 #!/bin/sh
 
-echo ls -a $RUNNER_WORKSPACE
+echo "pwd -> $(pwd)"
+echo "ls -a -> $(ls -a)"
 search_result=$(grep -r -i -n "password[=:]" $RUNNER_WORKSPACE)
 
 if [[ $search_result ]]; then
