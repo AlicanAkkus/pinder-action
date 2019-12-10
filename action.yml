@@ -1,6 +1,6 @@
 name: 'Check password'
 description: 'Check sensitive data (password etc.)'
-author: 'Alican= Akkus'
+author: 'Alican Akkus'
 branding:
   icon: 'crosshair'
   color: 'orange'
