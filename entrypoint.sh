@@ -1,7 +1,7 @@
 #!/bin/sh
 
 printenv
-search_result=$(grep -r -i -n "password[=:]" /github/workspace)
+search_result=$(grep -r -i -n "password[=:]" $RUNNER_WORKSPACE)
 
 if [[ $search_result ]]; then
     echo "Sensitive data found! Check it out! \n $search_result"
