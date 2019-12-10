@@ -1,6 +1,6 @@
 #!/bin/sh
 
-printenv
+echo ls -a $RUNNER_WORKSPACE
 search_result=$(grep -r -i -n "password[=:]" $RUNNER_WORKSPACE)
 
 if [[ $search_result ]]; then
