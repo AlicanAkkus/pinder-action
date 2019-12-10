@@ -1,5 +1,6 @@
 #!/bin/sh
 
+printenv
 search_result=$(grep -r -i -n "password[=:]" /github/workspace)
 
 if [[ $search_result ]]; then
