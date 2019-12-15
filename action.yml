@@ -1,6 +1,9 @@
 name: 'Check password'
 description: 'Check sensitive data (password etc.)'
 author: 'Alican Akkus'
+inputs:
+  path:
+    description: 'the path of checking sensitive data'
 branding:
   icon: 'crosshair'
   color: 'orange'
