@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "pwd -> $(pwd)"
-echo "ls -a -> $(ls -a)"
+echo "ls -a -> $(ls -a /github/workspace)"
 search_result=$(grep -r -i -n "password[=:]" $RUNNER_WORKSPACE)
 
 if [[ $search_result ]]; then
