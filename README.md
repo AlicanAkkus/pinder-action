@@ -5,10 +5,6 @@ pinder checks your source code to prevent possible security problems. you can co
 
 ## Table of Contents
 - [Usage](#usage)
-  * [Valid Parameters](#applying)
-- [Other Similar Projects](#other-similar-projects)  
-- [Acknowledgements](#acknowledgements)  
-- [Disclaimer](#disclaimer)  
 - [Contribute](#contribute)  
 - [Code of Conduct](#code-of-conduct)  
 - [License](#license)  
