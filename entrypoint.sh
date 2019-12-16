@@ -1,8 +1,6 @@
 #!/bin/sh
 
 echo "pwd -> $(pwd)"
-echo "path -> $(path)"
-echo "ks path -> $(ls path)"
 echo "list /github/workflow -> $(ls -a /github/workflow)"
 echo "list /github/workspace -> $(ls -a /github/workspace)"
 echo "list /github/home -> $(ls -a /github/home)"
